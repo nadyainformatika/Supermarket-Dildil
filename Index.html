@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sunny Mart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="sun">>-<</div>
+    <h1>Hacipupu Mart</h1>
+    <p>a little store full of happiness</p>
+    <span class="tag">OPEN DAILY · 08.00—21.00</span>
+  </header>
+
+  <main>
+    <h2>Today's goodies ✿</h2>
+    <div id="catalog" class="catalog"></div>
+
+    <section class="panel">
+      <h2>🧺 Your basket</h2>
+      <div id="basket">Belum ada barang.</div>
+      <div class="total">
+        <span>Total</span>
+        <span id="total">Rp0</span>
+      </div>
+
+      <label for="payment">Uang pembayaran</label>
+      <input id="payment" type="number" placeholder="Contoh: 50000">
+      <button class="pay" onclick="processPayment()">Selesaikan pembayaran ↗</button>
+      <button class="clear" onclick="resetBasket()">Kosongkan keranjang</button>
+      <div id="notice"></div>
+    </section>
+
+    <section class="panel summary">
+      <h2>Catatan toko</h2>
+      <div class="stats">
+        <div><small>Transaksi</small><b id="sales">0</b></div>
+        <div><small>Penjualan</small><b id="revenue">Rp0</b></div>
+        <div><small>Kas awal + penjualan</small><b id="cash">Rp500.000</b></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>thank you for stopping by ♡</footer>
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World!</h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html>
